@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 380px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.field {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.field label {
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+
+.icon {
+    margin-right: 8px;
+}
+
+.input-wrapper input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    min-height: 44px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login {
+    background: #a9c4f5;
+}
+
+.register {
+    background: #6fa3ff;
+    color: #fff;
+}
+
+hr {
+    margin: 25px 0;
+}
+
+.forgot {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.google-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.google-btn img {
+    width: 40px;
+}

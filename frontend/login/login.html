@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EvolveNote – Login</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="container">
+    <img src="../photo/logo.png" alt="EvolveNote" class="logo">
+
+    <div class="field">
+        <label>Username</label>
+        <div class="input-wrapper">
+            <span class="icon">👤</span>
+            <input type="text" placeholder="Email" id="email">
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="error">Password</label>
+        <div class="input-wrapper error-border">
+            <span class="icon">🔒</span>
+            <input type="password" placeholder="Password" id="password">
+        </div>
+    </div>
+
+    <div class="remember">
+        <input type="checkbox" id="remember">
+        <label for="remember">Keep me signed in</label>
+    </div>
+
+    <div class="buttons">
+        <button id="login-btn" class="btn login">Login</button>
+        <button id ="register-btn" class="btn register">Registration</button>
+    </div>
+
+    <hr>
+
+    <a href="#" class="forgot">Forgot password?</a>
+
+    <button class="google-btn" onclick="loginWithGoogle()">
+        <img src="../photo/google.png" alt="Google">
+    </button>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
