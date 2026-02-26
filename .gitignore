@@ -1,0 +1,16 @@
+database.db
+*.db
+__pycache__/
+venv/
+.vscode/
+.env
+.env.local
+**/.env
+**/.env.local
+!.env.example
+node_modules/
+.expo/
+dist/
+web-build/
+/ios
+/android
